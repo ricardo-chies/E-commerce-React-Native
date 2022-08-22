@@ -22,9 +22,7 @@ export default function Produtor() {
                     <Image source={imagem} style={estilos.produtorImage} />
                     <Text style={estilos.produtor}>{nome}</Text>
                 </View>
-
                 <Text style={estilos.cestas}>{ tituloCestas }</Text>
-
             </View>
         </>
     }

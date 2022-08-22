@@ -20,13 +20,13 @@ export default function Detalhes({ nome, produtor, descricao, preco }) {
 
     <TouchableOpacity 
       style={estilos.botao} 
-      onPress={() => navigation.popToTop()}> 
+      onPress={() => navigation.navigate('HomeScreen', {compra: { nome }})}> 
 
       {/* //navigation.reset({
         index: 0,
         routes: [{ name: 'Home' }],
       })}> */}
-      
+
       <Texto style={estilos.textoBotao}>{ botaoComprar }</Texto>
     </TouchableOpacity>
   </>

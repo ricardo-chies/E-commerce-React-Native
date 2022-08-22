@@ -21,7 +21,7 @@ export default function AppRotas() {
             Icon = Coracao;
           }
 
-          return <Icon color={color} />
+          return <Icon color={color} width={20} height={20} />
         },
         tabBarActiveTintColor: '#2a9f85',
         tabBarInactiveTintColor: '#c7c7c7',
